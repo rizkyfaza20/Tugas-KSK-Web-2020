@@ -1,0 +1,57 @@
+.topnav {
+    background-color: grey;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+#slideshow {
+    overflow: hidden;
+    height: 300px;
+    width: 1330px;
+    margin: 0 auto;
+}  
+.slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 18s ease infinite;
+  }
+  
+.slide {
+    float: left;
+    height: 510px;
+    width: 800px;
+}
+@-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+}
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
