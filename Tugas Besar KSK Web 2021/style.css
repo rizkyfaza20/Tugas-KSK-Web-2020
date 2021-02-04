@@ -52,6 +52,10 @@ tr:nth-child(even) {
   margin-bottom: 50px;
 }
 
+.main header{
+  text-align: center;
+}
+
 body {font-family: Arial, Helvetica, sans-serif;}
 
 input[type=text], input[type=password] {
