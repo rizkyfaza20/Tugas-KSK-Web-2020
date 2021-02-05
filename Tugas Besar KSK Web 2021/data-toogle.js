@@ -1,3 +1,2 @@
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
-  });
+function myFunction() {
+    window.open("terms-privacy.html");
